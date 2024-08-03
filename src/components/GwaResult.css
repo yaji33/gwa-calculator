@@ -1,0 +1,92 @@
+
+h1 {
+    margin-top: 120px;
+}
+
+.result-container {
+    border: 2px solid #577B8D;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 12px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.result-container2 {
+    margin-top: 20px;
+    width: 50%;
+    padding: 20px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+
+.distinction {
+    color: #FFD700;
+    font-size: 28px;
+}
+.optional-name {
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+button {
+    width: 20rem;
+    padding: 10px;
+    color: white; /* Ensure the text color is white */
+    background-color: #778da9; /* Add background color */
+    border: 1px solid #577B8D;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 -10px;
+}
+button:hover {
+    background-color: #a5b6be; /* Darker background color on hover */
+    transition: 0.5s;
+}
+
+
+.table-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+    
+  }
+  
+  .footer-row td {
+    padding-top: 0px;
+    text-align: left;
+  }
+  
+  .footer-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .footer-row input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none; /* Remove all borders */
+    border-radius: 5px;
+     /* Add shadow only at the bottom */
+    transition: box-shadow 0.3s, border-color 0.3s; /* Smooth transition */
+  }
+  
+  .footer-row input[type="text"]:focus {
+    outline: none; /* Remove the default outline */
+    box-shadow: 0 2px 8px 0 rgba(87, 123, 141, 0.6); /* Add shadow with new color */
+    border-bottom: 2px solid #577B8D; /* Highlight bottom border with new color */
+  }
+  
+  .footer-row label {
+    font-size: 13px;
+  }
